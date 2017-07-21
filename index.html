@@ -33,14 +33,23 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="js/script.js"></script>
         <script src="https://use.fontawesome.com/39f1b0bccc.js"></script>
+        <div id="header-top">
+            <span id="padding">
+            </span>
+            <span class="lr-space">
+                <a href="http://linkedin.com/in/chasegoddard" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+            </span>
+            <span class="lr-space">
+                <a href="http://github.com/cwg45/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+            </span>
+        </div>
         <div class="header" id="headerwrap">
             <div class="container">
                 <div class="row centered">
                     <div class="col-lg-12">
                         <div id="hdr">
                             <h1>Chase Goddard</h1>
-                            <h3>Research Assistant at Cornell University |  
-                                <a href="mailto:cwg45@cornell.edu">cwg45@cornell.edu</a>
+                            <h3>Research Assistant at Cornell University 
                             </h3>
                         </div>
                     </div><!--/.col-lg-12-->
@@ -101,7 +110,8 @@
                 <!-- EDIT: work line 1 -->
                 <div class="col-lg-6">
                     <p class="tight"><t>Research Assistant</t><br/>
-                    Cornell University Laboratory of Atomic and Solid State Physics <br/>
+                    Cornell Laboratory of Atomic and Solid State Physics (LASSP) <br/>
+                    Cornell Laboratory for Accelerator Based Sciences And Education (CLASSE)
                     </p>
                     <p><more>Working with Professor Carl Franck. Research is related to X-ray spectroscopy, 
                     with the ultimate goal being to develop technology to better understand quantum materials (e.g. superconductors). 
@@ -155,7 +165,7 @@
                     <p><more>Won for a paper on the disposal of radioactive waste in the asteroid belt. (~200 teams competed)</more></p>
                 </div>
                 <div class="col-lg-3">
-                    <p><sm>January 2017</sm></p>
+                    <p><sm>January 2017</sm><br/><a href="files/University Physics 2017.pdf" target="_blank"><i class="icon-file"></i> <sm>PDF</sm></a></p>
                 </div>
 
             </div><!--/.row -->
@@ -170,7 +180,7 @@
                     <h5>SELECTED COURSEWORK</h5>
                 </div>
 
-                <div class="col-lg-6">
+                <div id="phystop" class="col-lg-6">
                     <p class="tight"><t id="physics-toggle" class="toggle">Physics  <i id="phys-chevron" class="fa fa-chevron-down" aria-hidden="true"></i></t> <span class="physics-courses"><br/> Honors Physics I: Mechanics and Special Relativity <br/>
                         Honors Physics II: Electricity and Magnetism <br/>
                         Honors Physics III: Waves and Thermal Physics <br/>
@@ -181,7 +191,7 @@
                         Computational Physics <br/>
                         Independent Study in Physics<br/> </span></p>
                 </div>
-                <div class="col-lg-3">
+                <div id="physbot" class="col-lg-3 courses">
                     <p><sm>&nbsp<br/> <span class="physics-courses">
                         PHYS 1116 <br/>
                         PHYS 2217 <br/>
@@ -194,14 +204,15 @@
                         PHYS 4490</span>
                     </sm></p>
                 </div>
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p class="tight"><t id="cs-toggle" class="toggle">Computer Science  <i id="cs-chevron" class="fa fa-chevron-down" aria-hidden="true"></i></t> <span class="cs-courses"><br/>Honors Object Oriented Programming and Data Structures<br/>
+                <div id="cstop" class="col-lg-6 col-lg-offset-3">
+                    <p class="tight"><t id="cs-toggle" class="toggle">Computer Science  <i id="cs-chevron" class="fa fa-chevron-down" aria-hidden="true"></i></t> <span class="cs-courses"><br/>
+                        Honors Object Oriented Programming and Data Structures<br/>
                         Discrete Structures <br/>
                         Functional Programming and Data Structures <br/>
                         Computer System Organization and Programming </span>
                     </p>
                 </div>
-                <div class="col-lg-3">
+                <div id="csbot" class="col-lg-3 courses">
                     <p><sm>&nbsp<br/> <span class="cs-courses">
                         CS 2112 <br/>
                         CS 2800 <br/>
@@ -209,7 +220,7 @@
                         CS 3410 <br/> </span>
                     </sm></p>
                 </div>
-                <div class="col-lg-6 col-lg-offset-3">
+                <div id="mathtop" class="col-lg-6 col-lg-offset-3">
                     <p class="tight"><t id="math-toggle" class="toggle">Mathematics  <i id="math-chevron" class="fa fa-chevron-down" aria-hidden="true"></i></t> <br/>
                     <span class="math-courses">Multivariable Calculus for Engineers<br/>
                         Differential Equations for Engineers <br/>
@@ -218,7 +229,7 @@
                         Mathematical Physics I </span>
                     </p>
                 </div>
-                <div class="col-lg-3">
+                <div id="mathbot" class="col-lg-3 courses">
                     <p><sm>&nbsp<br/> <span class="math-courses">
                         MATH 1920 <br/>
                         MATH 2930 <br/>
@@ -227,10 +238,49 @@
                         AEP 4210 <br/> </span>
                     </sm></p>
                 </div>
-                <br>
-                <br>
             </div><!--/.container -->
         </div>
+
+
+        <!-- SKILLS SECTION -->
+        <div class="container desc">
+
+            <hr>
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <h5>SKILLS</h5>
+                </div>
+
+                <div class="col-lg-6">
+                    <p>
+                        Java, Python, R, C, Data Science, MATLAB, OCaml, Javascript, HTML, CSS, Intermediate Mandarin Chinese
+                    </p>
+                </div>
+
+            </div><!--/.row -->
+            <br>
+            <hr>
+        </div><!--/.container -->
+        </div>
+        <!-- ACTIVITIES SECTION -->
+        <div class="container desc">
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <h5>ACTIVITIES</h5>
+                </div>
+
+                <div class="col-lg-6">
+                    <p>
+                        Cornell Jazz Band (Alto Saxophone), Cornell Jazz Club (Social Chair), Physics Peer Mentor, Society for Physics Students, Association of Computer Science Undergraduates
+                    </p>
+                </div>
+
+            </div><!--/.row -->
+            <br>
+        </div><!--/.container -->
+        </div>
+
+
 
         <section id="contact" name="contact"></section>
         <!--FOOTER DESCRIPTION -->
@@ -243,13 +293,7 @@
                     </div>
                     <!-- EDIT: email -->
                     <div class="col-lg-6">
-                        <p><t>Email</t><br/>
-                        <a href="mailto:cwg45@cornell.edu" class="mail">cwg45@cornell.edu</a> <br/>
-                        </p>
-                        <!-- EDIT: phone number -->
-                        <p><t>Phone</t><br/>
-                        <a href="tel:9149243693" class="tel">(914) 924-3693</a> <br/>
-                        </p>
+                        <p> Contact Form </p> 
                     </div>
                     <div class="col-lg-3">
                         <p>

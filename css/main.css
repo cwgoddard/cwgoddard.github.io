@@ -28,7 +28,7 @@ p {
 
 /* Links */
 a {
-  color: #1CBCAD;
+  color: #00e8d0;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -40,7 +40,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #7b7b7b;
+  color: #01b2a0;
   text-decoration: none;
   outline: 0;
 }
@@ -53,8 +53,9 @@ a:after {
   -o-transition: color 0.1s ease-in, background 0.1s ease-in;
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-a:visited {
-  color: #1CBCAD;
+/*a:visited {
+  /*color: #1CBCAD;
+  color: #00e8d0;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -62,13 +63,13 @@ a:visited {
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
   -o-transition: color 0.1s ease-in, background 0.1s ease-in;
   transition: color 0.1s ease-in, background 0.1s ease-in;
-}
+} */
 
- hr {
+hr {
   display: block;
-  height: 1px;
+  height: 0px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ccc; 
   margin: 1em 0;
   padding: 0;
 }
@@ -119,7 +120,7 @@ a:visited {
 
 /* About Wrap */
 .about {
-  background: #2c3e50;
+  background: #3e567c;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -334,4 +335,19 @@ body {
 .toggle:hover{
    border-bottom: 1px solid #34495e; 
    cursor: pointer;
+}
+
+.lr-space {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#header-top {
+    padding-top:10px;
+    padding-bottom:10px;
+    background: #3e567c;
+}
+
+#padding {
+    margin-right:2%;
 }
