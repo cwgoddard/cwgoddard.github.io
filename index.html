@@ -33,6 +33,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="js/script.js"></script>
         <script src="https://use.fontawesome.com/39f1b0bccc.js"></script>
+        <script type="application/ld+json">
+            {
+              "@context": "http://chasegoddard.com",
+              "@type": "Personal",
+              "url": "http://chasegoddard.com",
+              "name": "Chase Goddard",
+            }
+        </script>
         <div id="header-top">
             <span id="padding">
             </span>
@@ -107,15 +115,26 @@
                 <div class="col-lg-2 col-lg-offset-1">
                     <h5>WORK</h5>
                 </div>
-                <!-- EDIT: work line 1 -->
                 <div class="col-lg-6">
                     <p class="tight"><t>Research Assistant</t><br/>
-                    Cornell Laboratory of Atomic and Solid State Physics (LASSP) <br/>
+                    Cornell Laboratory for Elementary and Particle Physics (LEPP) <br/>
+                    </p>
+                    <p><more>Working with Professor Julia Thom-Levy on the Compact Muon Solenoid (CMS) detector at the Large Hadron Collider (LHC) in Geneva, Switzerland. Wrote finite-element analysis software to simulate heat transfer from two-phase carbon dioxide flow in a cooling system. 
+                    Performed data analysis looking for interactions between the Higgs boson and the top quark.
+                    </more></p>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>August 2017 - Current <br />
+                    Ithaca, NY</sm></p>
+                </div>
+
+                <!-- EDIT: work line 1 -->
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p class="tight"><t>Research Assistant</t><br/>
+                    Cornell Laboratory for Atomic and Solid State Physics (LASSP) <br/>
                     Cornell Laboratory for Accelerator Based Sciences And Education (CLASSE)
                     </p>
-                    <p><more>Working with Professor Carl Franck. Research is related to X-ray spectroscopy, 
-                    with the ultimate goal being to develop technology to better understand quantum materials (e.g. superconductors). 
-                    Additional work done in atomic physics performing measurements of interatomic bremsstrahlung.
+                    <p><more>Working with Professor Carl Franck on new techniques for X-ray spectroscopy. Developed data analysis library for coincidence experiments using Python and MATLAB and analyzed data from experiments done at the Cornell High Energy Synchrotron Source (CHESS). Designed and built an experiment to test a new technique for spectroscopy of strongly correlated condensed matter systems. The scheme allows for soft X-ray detection in a hard X-ray environment.
                     </more></p>
                 </div>
                 <div class="col-lg-3">
@@ -125,7 +144,7 @@
 
                 <!-- EDIT: work line 2-->
                 <div class="col-lg-6 col-lg-offset-3">
-                    <p class="tight"><t>Intern</t><br/>
+                    <p class="tight"><t>Data Science Intern</t><br/>
                     Bruce Henderson Institute, Boston Consulting Group <br/>
                     </p>
                     <p><more>Worked with PhD researchers in an internal think tank to build a database of financial and other data. Wrote code to automatically update the database each year.
@@ -253,7 +272,7 @@
 
                 <div class="col-lg-6">
                     <p>
-                        Java, Python, R, C, Data Science, MATLAB, OCaml, Javascript, HTML, CSS, Intermediate Mandarin Chinese
+                    Java, Python, R, C, Data Science, MATLAB, OCaml, Javascript, HTML, CSS, Intermediate Mandarin Chinese
                     </p>
                 </div>
 
@@ -271,7 +290,7 @@
 
                 <div class="col-lg-6">
                     <p>
-                        Cornell Jazz Band (Alto Saxophone), Cornell Jazz Club (Social Chair), Physics Peer Mentor, Society for Physics Students, Association of Computer Science Undergraduates
+                    Cornell Jazz Band (Alto Saxophone), Cornell Jazz Club (Social Chair), Physics Peer Mentor, Society for Physics Students, Association of Computer Science Undergraduates
                     </p>
                 </div>
 
@@ -293,7 +312,20 @@
                     </div>
                     <!-- EDIT: email -->
                     <div class="col-lg-6">
-                        <p> Contact Form </p> 
+                        <form action="contact.php" method="post">
+                            <div class="space" id="Name">
+                                <!-- <label class="label" for="name-box"> Name: </label> -->
+                                <input id="name-box" type="text" placeholder="Name"> <br/>
+                            </div>
+                            <div class="space" id="Email">
+                                <!-- <label class="label" for="email-box"> E-mail: </label> -->
+                                <input id="email-box" type="text" placeholder="Email"> <br/>
+                            </div>
+                            <div class="space"  id="Message">
+                                <textarea id="message-box" type="text" placeholder="Message"></textarea> <br/>
+                            </div>
+                            <input id="sub" type="submit">
+                        </form>
                     </div>
                     <div class="col-lg-3">
                         <p>

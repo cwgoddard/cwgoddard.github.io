@@ -351,3 +351,26 @@ body {
 #padding {
     margin-right:2%;
 }
+
+.space {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 300px;
+}
+
+#sub{
+    width: 110px;
+}
+
+#message-box{
+    height: 200px;
+    width: 600px;
+    margin-top:5px;
+}
+
+form{
+    display: none;
+}
