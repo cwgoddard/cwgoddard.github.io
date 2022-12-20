@@ -1,4 +1,52 @@
 $(document).ready(function(){
+
+
+    var pton_hidden = true;
+    $(".pton-courses").hide()
+    var pton_height = $("#pton").height();
+
+    $('#pton-toggle').click(function(){
+        $('#ptonbot').show();
+        if(pton_hidden){
+            $(".pton-courses").show();
+            $("#pton-chevron").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+            $("#pton").css({
+                height:pton_height
+            });
+        }
+        else{
+            $(".pton-courses").hide();
+            $("#pton-chevron").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+            $("#pton").css({
+                height:pton_height
+            });
+        }
+        pton_hidden = !pton_hidden;
+    });
+
+    var cornell_hidden = true;
+    $(".cornell-courses").hide()
+    var cornell_height = $("#cornell").height();
+
+    $('#cornell-toggle').click(function(){
+        $('#cornellbot').show();
+        if(cornell_hidden){
+            $(".cornell-courses").show();
+            $("#cornell-chevron").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+            $("#cornell").css({
+                height:cornell_height
+            });
+        }
+        else{
+            $(".cornell-courses").hide();
+            $("#cornell-chevron").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+            $("#cornell").css({
+                height:cornell_height
+            });
+        }
+        cornell_hidden = !cornell_hidden;
+    });
+
     var phys_hidden = true;
     $(".physics-courses").hide();
     $(".cs-courses").hide();

@@ -14,7 +14,10 @@
 
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="css/fork-awesome.min.css">-->
+        <!--<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">-->
+
+        <link rel="stylesheet" href="css/academicons.min.css">
 
         <!-- Link the main.css stylesheet -->
         <link href="css/main.css" rel="stylesheet">
@@ -32,7 +35,8 @@
     <body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="js/script.js"></script>
-        <script src="https://use.fontawesome.com/39f1b0bccc.js"></script>
+        <!--<script src="https://use.fontawesome.com/39f1b0bccc.js"></script>-->
+        <script src="https://kit.fontawesome.com/2b51ccba33.js"></script>
         <script type="application/ld+json">
             {
               "@context": "http://chasegoddard.com",
@@ -43,6 +47,9 @@
         </script>
         <div id="header-top">
             <span id="padding">
+            </span>
+            <span class="lr-space">
+                <a href="https://scholar.google.com/citations?user=Kkor7-0AAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i></a>
             </span>
             <span class="lr-space">
                 <a href="http://linkedin.com/in/chasegoddard" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
@@ -72,10 +79,10 @@
                         <h5>ABOUT</h5>
                     </div>
                     <div class="col-lg-6">
-                        <p>I'm interested in research in fundamental and applied physics, as well as computational science and machine learning.</p>
+                        <p>I'm a physics PhD student at Princeton University working in ML theory.</p>
                     </div>
                     <div class="col-lg-3">
-                        <p><a href="files/Chase Goddard.pdf" target="_blank"><i class="icon-file"></i> <sm>Resume PDF</sm></a></p>
+                        <!--<p><a href="files/Chase Goddard.pdf" target="_blank"><i class="icon-file"></i> <sm>Resume PDF</sm></a></p>-->
                     </div>
 
                 </div><!--/.row-->
@@ -93,17 +100,50 @@
                 <!-- EDIT: education line 1 -->
                 <div class="col-lg-6">
                     <p><t>PhD, Physics</t><br/>
+                        Princeton University, Graduate School <br/>
+                        <more>
+                        PhD in machine learning theory, advised by Prof. David Schwab. <br/>
+                        <span id="pton" style="float:left width:100%"><span class=""><span id="pton-toggle" class="toggle" style="font-style: italic;">Courses Taught  <i id="pton-chevron" class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
+                            <table id="ptonbot" class="pton-courses table table-condensed table-hover table-responsive" style="padding-top: 0; margin-top:0;">
+                                <tbody>
+                                    <tr><td>Classical Mechanics</td><td style="text-align:right"><sm>PHY 203</sm> </td></tr>
+                                    <tr><td>Graduate Preliminary Exam Prep Classes</td><td style="text-align:right"><sm>PHY 503, 504, 513, 514</sm> </td></tr>
+                                    <tr><td>Introductory E&ampM</td><td style="text-align:right"><sm>PHY 104</sm> </td></tr>
+                                    <tr><td>Computational Physics</td><td style="text-align:right"><sm>PHY 209</sm> </td></tr>
+                                    <tr><td></td><td></td><tr>
+                                </tbody>
+                            </table>
+                        </span>
+                        </more>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>Sept 2019 — Present</sm><br/>
+                    </p>
+                </div>
+                 <div class="col-lg-6 col-lg-offset-3">
+                    <p><t>Master of Arts, Physics</t><br/>
                         Princeton University, Graduate School<br/>
                     </p>
                 </div>
                 <div class="col-lg-3">
-                    <p><sm>Starting Sept 2019</sm><br/>
+                    <p><sm>Sept 2019 — Sept 2021</sm><br/>
                     </p>
                 </div>
                 <div class="col-lg-6 col-lg-offset-3">
                     <p><t>Bachelor of Arts, Physics & Computer Science</t><br/>
                         Cornell University, College of Arts and Sciences<br/>
-                        <more>Honors: <i>magna cum laude</i> (GPA 3.87) </more>
+                        <more>Honors: <i>magna cum laude</i> (GPA 3.87) <br/>
+                        <span id="cornell" style="float:left width:100%"><span class=""><span id="cornell-toggle" class="toggle" style="font-style: italic;">Courses Taught  <i id="cornell-chevron" class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
+                            <table id="cornellbot" class="cornell-courses table table-condensed table-hover table-responsive" style="padding-top: 0; margin-top:0;">
+                                <tbody>
+                                    <tr><td>Machine Learning</td><td style="text-align:right"><sm>CS 4780</sm> </td></tr>
+                                    <tr><td>Mathematics for Data Science</td><td style="text-align:right"><sm>CS 4850</sm> </td></tr>
+                                    <tr><td></td><td></td><tr>
+                                </tbody>
+                            </table>
+                        </span>
+                        </more>
                     </p>
                 </div>
                 <div class="col-lg-3">
@@ -111,6 +151,33 @@
                     </p>
                 </div>
 
+
+            </div><!--/.row -->
+            <br>
+            <hr>
+        </div><!--/.container -->
+
+        <!-- PUBLICATIONS SECTION -->
+        <div class="container desc">
+            <div class="row">
+
+                <div class="col-lg-2 col-lg-offset-1">
+                    <h5>PUBLICATIONS</h5>
+                </div>
+                <!-- EDIT: education line 1 -->
+                <div class="col-lg-6">
+                    <p><t>Testing for the continuous spectrum of x rays predicted to accompany the photoejection of an atomic inner-shell electron</t><br/>
+                        Philip Jacobson, Andrija Rasovic, Arthur Campello, <b>Chase Goddard</b>, Matthew Dykes, Yuchao Chen, J. Y. Peter Ko, Stanislav Stoupin, Gwen Gardner, Justin Oh, and Carl Franck<br/>
+                        <more>
+                        <a href=https://doi.org/10.1103/PhysRevA.104.042809>Published</a> in Physical Review A.
+                        </more>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>Published Oct 2021</sm><br/>
+                    </p>
+                </div>
+                 
 
             </div><!--/.row -->
             <br>
@@ -130,13 +197,14 @@
                         Cornell Laboratory for Accelerator Based Sciences and Education (CLASSE)
                     </p>
                     <p><more>
-                        Working with Professor Julia Thom on the Compact Muon Solenoid  (CMS) detector at the Large Hadron Collider. Wrote finite-element analysis (FEA) software to simulate heat transfer from two-phase carbon dioxide flow in a cooling system, integrating MATLAB and ANSYS code. The code will be used to model cooling systems for a CMS upgrade. I also worked to help construct a prototype of the system, which will be used to experimentally verify the results of the code.
+                        Worked with Professor Julia Thom on the Compact Muon Solenoid  (CMS) detector at the Large Hadron Collider. Worked on physics analysis code to detect Higgs production in association with top quarks. Wrote finite-element analysis (FEA) software to simulate heat transfer from two-phase carbon dioxide flow in the CMS forward pixel detector cooling system, integrating MATLAB and ANSYS code. 
                         </more></p>
                 </div>
                 <div class="col-lg-3">
                     <p><sm>August 2017 - May 2019 <br />
                         Ithaca, NY</sm></p>
                 </div>
+                <!--
                 <div class="col-lg-6 col-lg-offset-3">
                     <p class="tight"><t>Teaching Assistant</t><br/>
                         Cornell University Computer Science Department <br/>
@@ -161,13 +229,13 @@
                     <p><sm>August 2018 - Dec 2018 <br />
                         Ithaca, NY</sm></p>
                 </div>
+                -->
                 <div class="col-lg-6 col-lg-offset-3">
                     <p class="tight"><t>Research Assistant</t><br/>
                         CERN, CMS Experiment <br/>
                     </p>
                     <p><more>
-                        Summer research assistant for the CMS experiment with the Cornell group. Built a continuous integration framework for physics analysis projects using Docker containers and developed specific tools for a project which aims to study the physics of the top quark and the Higgs boson. The tools compile and test new additions to the software, and generate key plots and histograms to help debug the software and speed development. I am currently continuing the work (in Ithaca), and will be helping a group which works on data acquisition use the framework for their software.
-                        </more></p>
+                        Summer research assistant for the CMS experiment with the Cornell group.<!-- Built a continuous integration framework for physics analysis projects using Docker containers and developed specific tools for a project which aims to study the physics of the top quark and the Higgs boson. The tools compile and test new additions to the software, and generate key plots and histograms to help debug the software and speed development. -->                        </more></p>
                 </div>
                 <div class="col-lg-3">
                     <p><sm>June 2018 - July 2018 <br />
@@ -178,8 +246,7 @@
                     <p class="tight"><t>Research Assistant</t><br/>
                         Cornell Laboratory for Atomic and Solid State Physics (LASSP) <br/>
                         Cornell Laboratory for Accelerator Based Sciences And Education (CLASSE) </p>
-                    <p><more>Worked with Professor Carl Franck on new techniques for X-ray spectroscopy. Developed a data analysis library for coincidence experiments using Python and MATLAB and analyzed data from experiments done at the Cornell High Energy Synchrotron Source (CHESS). Designed and built an experiment to test a new technique for spectroscopy of strongly correlated condensed matter systems. The scheme allows for soft X-ray detection in a hard X-ray environment.
-                        </more></p>
+                    <p><more>Worked with Professor Carl Franck on new techniques for X-ray spectroscopy. Developed a data analysis library for coincidence experiments using Python and MATLAB and analyzed data from experiments done at the Cornell High Energy Synchrotron Source (CHESS).                        </more></p>
                 </div>
                 <div class="col-lg-3">
                     <p><sm>August 2016 - December 2017 <br />
@@ -207,6 +274,7 @@
 
 
         <!-- AWARDS SECTION -->
+        <!--
         <div class="container desc">
             <div class="row">
                 <div class="col-lg-2 col-lg-offset-1">
@@ -237,7 +305,7 @@
                     <p><more>Won for a paper on optimal solar sail trajectories for a trip from Earth to Mars. (~250 teams competed)</more></p>
                 </div>
                 <div class="col-lg-3">
-                    <p><sm>January 2018</sm><br/><a href="files/University Physics 2018.pdf" target="_blank"><i class="icon-file"></i> <sm>PDF</sm></a></p>
+                    <p><sm>January 2018</sm><br/></p>
                 </div>
 
                 <div class="col-lg-6 col-lg-offset-3">
@@ -247,13 +315,13 @@
                     <p><more>Won for a paper on the disposal of radioactive waste in the asteroid belt. (~200 teams competed)</more></p>
                 </div>
                 <div class="col-lg-3">
-                    <p><sm>January 2017</sm><br/><a href="files/University Physics 2017.pdf" target="_blank"><i class="icon-file"></i> <sm>PDF</sm></a></p>
+                    <p><sm>January 2017</sm><br/></p>
                 </div>
 
-            </div><!--/.row -->
+            </div>
             <br>
             <hr>
-        </div><!--/.container -->
+        </div>--><!--/.container -->
 
         <!-- COURSES SECTION -->
         <div class="container desc">
@@ -268,6 +336,7 @@
                             <table id="phystop" class="col-lg-6 physics-courses table table-condensed table-hover table-responsive">
 
                                 <tbody>
+                                    <!--
                                     <tr><td>Physics I: Mechanics and Special Relativity <i> (Honors) </i></td><td style="text-align:right"><sm>PHYS 1116</sm> </td></tr>
                                     <tr><td>Physics II: Electricity and Magnetism <i> (Honors) </i></td><td style="text-align:right"><sm>PHYS 2217</sm> </td></tr>
                                     <tr><td>Physics III: Waves and Thermal Physics <i> (Honors) </i></td><td style="text-align:right"><sm>PHYS 2218</sm> </td></tr>
@@ -275,13 +344,19 @@
                                     <tr><td>Electronic Circuits</td><td style="text-align:right"><sm>PHYS 3360</sm> </td></tr>
                                     <tr><td>Applications of Quantum Mechanics</td><td style="text-align:right"><sm>PHYS 3317</sm> </td></tr>
                                     <tr><td>Advanced Electricity and Magnetism <i> (Honors) </i> </td><td style="text-align:right"><sm>PHYS 3327</sm> </td></tr>
-                                    <tr><td>Analytical Mechanics<i> (Honors) </i></td><td style="text-align:right"><sm>PHYS 3318</sm> </td></tr>
-                                    <tr><td>Computational Physics</td><td style="text-align:right"><sm>PHYS 4480</sm> </td></tr>
-                                    <tr><td>Statistical Thermodynamics</td><td style="text-align:right"><sm>PHYS 4230</sm> </td></tr>
-                                    <tr><td>Advanced Experimental Physics</td><td style="text-align:right"><sm>PHYS 4410</sm> </td></tr>
-                                    <tr><td>Quantum Mechanics I</td><td style="text-align:right"><sm>PHYS 6572</sm> </td></tr>
-                                    <tr><td>Particle Physics</td><td style="text-align:right"><sm>PHYS 4444</sm> </td></tr>
+                                    <tr><td>Analytical Mechanics<i> (Honors) </i></td><td style="text-align:right"><sm>PHYS 3318</sm> </td></tr>-->
+                                    <tr><td>Computational Physics</td><td style="text-align:right"><sm>PHYS 4480, Cornell</sm> </td></tr>
+                                    <tr><td>Statistical Thermodynamics</td><td style="text-align:right"><sm>PHYS 4230, Cornell</sm> </td></tr>
+                                    <tr><td>Advanced Experimental Physics</td><td style="text-align:right"><sm>PHYS 4410, Cornell</sm> </td></tr>
+                                    <tr><td>Quantum Mechanics I</td><td style="text-align:right"><sm>PHYS 6572, Cornell</sm> </td></tr>
+                                    <tr><td>Particle Physics</td><td style="text-align:right"><sm>PHYS 4444, Cornell</sm> </td></tr>
+                                    <tr><td>Quantum Field Theory</td><td style="text-align:right"><sm>PHY 509, Princeton</sm> </td></tr>
+                                    <tr><td>Biophysics</td><td style="text-align:right"><sm>PHY 562, Princeton</sm> </td></tr>
+                                    <tr><td>General Relativity</td><td style="text-align:right"><sm>PHY 523, Princeton</sm> </td></tr>
+                                    <tr><td>Statistical Mechanics for Biological Networks</td><td style="text-align:right"><sm>QCB 505, Princeton</sm> </td></tr>
+                                    <!--
                                     <tr><td>Independent Study in Physics <i> (3 semesters) </i></td><td style="text-align:right"><sm>PHYS 4490</sm> </td></tr>
+                                    -->
                                     <tr><td></td><td></td><tr>
                                 </tbody>
 
@@ -292,16 +367,17 @@
                             <br/>
                             <table id="cstop" class="col-lg-6 cs-courses table table-condensed table-hover table-responsive">
                                 <tbody>
-                                    <tr><td>Object Oriented Programming and Data Structures <i> (Honors) </i></td><td style="text-align:right"><sm>CS 2112</sm> </td></tr>
+                                    <!--<tr><td>Object Oriented Programming and Data Structures <i> (Honors) </i></td><td style="text-align:right"><sm>CS 2112</sm> </td></tr>
                                     <tr><td>Discrete Structures</td><td style="text-align:right"><sm>CS 2800</sm> </td></tr>
                                     <tr><td>Functional Programming and Data Structures</td><td style="text-align:right"><sm>CS 3110</sm> </td></tr>
-                                    <tr><td>Computer System Organization and Programming <br/></td><td style="text-align:right"><sm>CS 3410</sm> </td></tr>
-                                    <tr><td>Mathematics for the Information Age <i>(Foundations of Data Science)</i></td><td style="text-align:right"><sm>CS 4850</sm> </td></tr>
-                                    <tr><td>Machine Learning for Intelligent Systems</td><td style="text-align:right"><sm>CS 4780</sm> </td></tr>
-                                    <tr><td>Foundations of Artificial Intelligence</td><td style="text-align:right"><sm>CS 4700</sm> </td></tr>
-                                    <tr><td>Practicum in Artificial Intelligence</td><td style="text-align:right"><sm>CS 4701</sm> </td></tr>
-                                    <tr><td>Introduction to Algorithms</td><td style="text-align:right"><sm>CS 4820</sm> </td></tr>
-                                    <tr><td>Operating Systems</td><td style="text-align:right"><sm>CS 4410</sm> </td></tr>
+                                    <tr><td>Computer System Organization and Programming <br/></td><td style="text-align:right"><sm>CS 3410</sm> </td></tr>-->
+                                    <tr><td>Mathematics for the Information Age <i>(Foundations of Data Science)</i></td><td style="text-align:right"><sm>CS 4850, Cornell</sm> </td></tr>
+                                    <tr><td>Machine Learning for Intelligent Systems</td><td style="text-align:right"><sm>CS 4780, Cornell</sm> </td></tr>
+                                    <tr><td>Foundations of Artificial Intelligence</td><td style="text-align:right"><sm>CS 4700, Cornell</sm> </td></tr>
+                                    <tr><td>Practicum in Artificial Intelligence</td><td style="text-align:right"><sm>CS 4701, Cornell</sm> </td></tr>
+                                    <tr><td>Introduction to Algorithms</td><td style="text-align:right"><sm>CS 4820, Cornell</sm> </td></tr>
+                                    <tr><td>Operating Systems</td><td style="text-align:right"><sm>CS 4410, Cornell</sm> </td></tr>
+                                    <tr><td>Deep Learning Theory</td><td style="text-align:right"><sm> ORF&nbsp543,&nbspPrinceton </sm></td></tr>
                                     <tr><td></td><td></td><tr>
                                 </tbody>
                             </table>
@@ -311,12 +387,13 @@
                             <br/>
                             <table id="mathtop" class="col-lg-6 math-courses table table-condensed table-hover table-responsive">
                                 <tbody>
-                                    <tr><td>Multivariable Calculus</td><td style="text-align:right"><sm>MATH 1920</sm> </td></tr>
+                                    <!--<tr><td>Multivariable Calculus</td><td style="text-align:right"><sm>MATH 1920</sm> </td></tr>
                                     <tr><td>Differential Equations</td><td style="text-align:right"><sm>MATH 2930</sm> </td></tr>
                                     <tr><td>Linear Algebra</td><td style="text-align:right"><sm>MATH 2940</sm> </td></tr>
-                                    <tr><td>Introduction to Analysis</td><td style="text-align:right"><sm>MATH 3110</sm> </td></tr>
-                                    <tr><td>Mathematical Physics I</td><td style="text-align:right"><sm>AEP 4210</sm> </td></tr>
-                                    <tr><td>Matrix Groups</td><td style="text-align:right"><sm>MATH 4500</sm> </td></tr>
+                                    <tr><td>Introduction to Analysis</td><td style="text-align:right"><sm>MATH 3110</sm> </td></tr>-->
+                                    <tr><td>Mathematical Physics</td><td style="text-align:right"><sm>AEP 4210, Cornell</sm> </td></tr>
+                                    <tr><td>Matrix Groups</td><td style="text-align:right"><sm>MATH 4500, Cornell</sm> </td></tr>
+                                    <tr><td>Optimization on Smooth Manifolds</td><td style="text-align:right"><sm>MAT 588, Princeton</sm> </td></tr>
                                     <tr><td></td><td></td><tr>
                                 </tbody>
                             </table>
@@ -328,6 +405,7 @@
 
 
         <!-- SKILLS SECTION -->
+        <!--
         <div class="container desc">
 
             <hr>
@@ -342,12 +420,14 @@
                     </p>
                 </div>
 
-            </div><!--/.row -->
+            </div>
             <br>
             <hr>
-        </div><!--/.container -->
         </div>
+        </div>
+        -->
         <!-- ACTIVITIES SECTION -->
+        <!--
         <div class="container desc">
             <div class="row">
                 <div class="col-lg-2 col-lg-offset-1">
@@ -360,9 +440,16 @@
                     </p>
                 </div>
 
-            </div><!--/.row -->
+            </div>
             <br>
-        </div><!--/.container -->
+        </div>
+        </div> -->
+        <div class="container desc">
+            <div class="row">
+
+
+            </div>
+            <br>
         </div>
 
 
@@ -374,7 +461,7 @@
                 <div class="row">
 
                     <div class="col-lg-2 col-lg-offset-1">
-                        <h5>CONTACT</h5>
+                        <!-- <h5>CONTACT</h5> -->
                     </div>
                     <!-- EDIT: email -->
                     <div class="col-lg-6">
