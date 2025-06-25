@@ -1,0 +1,11 @@
+"PhysRevA":
+  url: https://journals.aps.org/
+  color: "#009f36"
+
+"NeurIPS":
+  url: https://nips.cc/
+  color: "#4a77be"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#f0a500"
