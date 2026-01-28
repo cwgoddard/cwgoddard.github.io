@@ -721,6 +721,11 @@ footer.sticky-bottom {
     text-align: right;
   }
 
+  b.bibliography {
+    color: var(--global-divider-color);
+    text-decoration: underline;
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;

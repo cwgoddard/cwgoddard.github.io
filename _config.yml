@@ -280,10 +280,10 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year, month
-  sort_by: month
+  group_by: year
+  sort_by: year
   group_order: descending
-  bibliography_group_tag: 'h2, b'
+  bibliography_group_tag: 'h2'
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid

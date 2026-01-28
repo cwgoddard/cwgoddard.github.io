@@ -9,3 +9,7 @@
 "ICML":
   url: https://icml.cc/
   color: "#f0a500"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#964B00"
