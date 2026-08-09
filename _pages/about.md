@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student at Princeton University 
+subtitle:
 
 profile:
   align: right
@@ -23,11 +23,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I'm Chase Goddard, a PhD student in the physics department at Princeton University advised by [David Schwab](https://scholar.google.com/citations?user=UreckXYAAAAJ&hl=en) and [Bill Bialek](https://phy.princeton.edu/people/william-bialek). My research has focused on generalization and algorithmic capabilities of modern machine learning methods, both in and out of distribution. I am particularly interested in what ingredients (e.g. pretraining data, model architecture, optimization strategy) are necessary for these capabilities to emerge. I've also [taught](/teaching) several courses at the graduate and undergraduate level.
+I'm Chase Goddard, a research scientist at Meta working on generative recommendation systems.
 
-Before Princeton, I majored in physics and computer science at Cornell University, where I worked with [Carl Franck](https://physics.cornell.edu/carl-franck) on X-ray spectroscopy and with [Julia Thom-Levy](https://as.cornell.edu/people/julia-thom-levy) on the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider. I also held an internship at Boston Consulting Group's [Henderson Institute](https://www.bcg.com/bcg-henderson-institute), where I worked on a data analysis project that contributed to the [Fortune Future 50](https://fortune.com/ranking/future-50/2017/) ranking.
+Previously, I was a PhD student in the physics department at Princeton University advised by [David Schwab](https://scholar.google.com/citations?user=UreckXYAAAAJ&hl=en) and [Bill Bialek](https://scholar.google.com/citations?user=fQ-BSlgAAAAJ&hl=en). My research focused on generalization and algorithmic capabilities of modern machine learning methods, both in and out of distribution. I  also [taught](/teaching) several courses at the graduate and undergraduate level.
 
-I am currently working on characterizing & improving reasoning in LLMs via reinforcement learning, understanding generalization & mode connectivity by investigating [global geometric properties](https://arxiv.org/abs/2512.06297) of the loss landscape of overparameterized models, and extending our [analysis](https://openreview.net/forum?id=YKyza9lrv4) of out-of-distribution generalization in transformers to richer domains. Stay tuned!
+Before Princeton, I majored in physics and computer science at Cornell University, where I worked with [Carl Franck](https://physics.cornell.edu/carl-franck) on X-ray spectroscopy and with [Julia Thom-Levy](https://as.cornell.edu/people/julia-thom-levy) on the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider. I also held an internship at Boston Consulting Group's [Henderson Institute](https://www.bcg.com/bcg-henderson-institute), where I worked on data analysis that contributed to the inaugural [Fortune Future 50](https://fortune.com/ranking/future-50/2017/) ranking.
+
+<!-- I am currently working on characterizing & improving reasoning in LLMs via reinforcement learning, understanding generalization & mode connectivity by investigating [global geometric properties](https://arxiv.org/abs/2512.06297) of the loss landscape of overparameterized models, and extending our [analysis](https://openreview.net/forum?id=YKyza9lrv4) of out-of-distribution generalization in transformers to richer domains. Stay tuned! -->
 
 For an up-to-date list of my work, see my [Google Scholar](https://scholar.google.com/citations?user=Kkor7-0AAAAJ&hl=en), or see below.
 
