@@ -41,3 +41,8 @@ For an up-to-date list of my work, see my [Google Scholar](https://scholar.googl
 
 </div>
 
+<div class="publications-legend">
+  <span><sup>*,&thinsp;§</sup>Equal contribution</span>
+  <span><sup>†</sup>Authors in alphabetical order</span>
+</div>
+

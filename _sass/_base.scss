@@ -876,6 +876,21 @@ footer.sticky-bottom {
   }
 }
 
+.publications-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.875rem;
+  color: var(--global-text-color-light);
+
+  sup {
+    margin-right: 0.25em;
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
