@@ -54,7 +54,9 @@
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
+      {% comment %} Only collapse when it hides 2+ authors; "1 more author" is no shorter than the name {% endcomment %}
+      {% assign author_collapse_size = site.max_author_limit | plus: 1 %}
+      {% if site.max_author_limit and author_array_size > author_collapse_size %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
@@ -182,7 +184,7 @@
       {{ periodical | strip }}
     </div>
     <div class="periodical">
-      {{ entry.note | strip }}
+      {{ entry.note | strip | regex_replace: '^([*∗†‡§¶‖]+)', '<sup>\1</sup>' }}
     </div>
 
     <!-- Links/Buttons -->

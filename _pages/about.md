@@ -29,7 +29,7 @@ Previously, I was a PhD student in the physics department at Princeton Universit
 
 Before Princeton, I majored in physics and computer science at Cornell University, where I worked with [Carl Franck](https://physics.cornell.edu/carl-franck) on X-ray spectroscopy and with [Julia Thom-Levy](https://as.cornell.edu/people/julia-thom-levy) on the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider. I also held an internship at Boston Consulting Group's [Henderson Institute](https://www.bcg.com/bcg-henderson-institute), where I worked on data analysis that contributed to the inaugural [Fortune Future 50](https://fortune.com/ranking/future-50/2017/) ranking.
 
-<!-- I am currently working on characterizing & improving reasoning in LLMs via reinforcement learning, understanding generalization & mode connectivity by investigating [global geometric properties](https://arxiv.org/abs/2512.06297) of the loss landscape of overparameterized models, and extending our [analysis](https://openreview.net/forum?id=YKyza9lrv4) of out-of-distribution generalization in transformers to richer domains. Stay tuned! -->
+{% comment %} I am currently working on characterizing & improving reasoning in LLMs via reinforcement learning, understanding generalization & mode connectivity by investigating [global geometric properties](https://arxiv.org/abs/2512.06297) of the loss landscape of overparameterized models, and extending our [analysis](https://openreview.net/forum?id=YKyza9lrv4) of out-of-distribution generalization in transformers to richer domains. Stay tuned! {% endcomment %}
 
 For an up-to-date list of my work, see my [Google Scholar](https://scholar.google.com/citations?user=Kkor7-0AAAAJ&hl=en), or see below.
 

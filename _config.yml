@@ -8,7 +8,7 @@ middle_name:
 last_name: Goddard
 contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a PhD student at Princeton University, working on understanding machine learning, with a focus on understanding generalization. 
+  Research scientist at Meta working on generative recommendation systems.
 footer_text: 
 keywords: machine-learning, AI, artificial-intelligence, physics, biophysics, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -59,9 +59,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: https://chasegoddard.com/assets/img/prof-pic.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -118,12 +118,6 @@ disqus_shortname:
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
